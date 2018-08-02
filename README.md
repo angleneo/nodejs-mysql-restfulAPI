@@ -21,6 +21,7 @@ http://localhost:3306/api/createStudent
 http://localhost:3306/api/teachers
 http://localhost:3306/api/createTeacher
 
+
 本地安装并启动mysql
 host: localhost,
 port: 3306,
