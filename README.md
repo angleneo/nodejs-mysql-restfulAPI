@@ -10,7 +10,6 @@ nodejs + express + mysql 编写符合restful规范的API,供前端调用。
 操作指南：
 npm install
 
-npm install mysql
 
 npm start   启动
 
@@ -25,9 +24,9 @@ http://localhost:3306/api/createTeacher
 本地安装并启动mysql
 host: localhost,
 port: 3306,
-user: root,
-password: 654321,
-database: build
+user: xxxx,
+password: xxxxxx,
+database: xxxxxx
 
 建表
 user:
