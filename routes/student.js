@@ -15,7 +15,7 @@ router.use(function(req,res,next){
 
 router.get('/students', function(req, res, next) {
   let mysqlBody = [req.body.name, req.body.age, req.body.sex, req.body.chinese, req.body.english, req.body.math]
-  let sql = 'select * from student';
+  let sql = 'select * from student limit 0, 5';
   connection.connection.query(sql, mysqlBody, function(err, rows, fields) {
     if (err) {
       console.log(err)
